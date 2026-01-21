@@ -30,7 +30,8 @@
         },
         "Events": {
           "$className": "Folder",
-          "StartCalibration": { "$className": "RemoteEvent" }
+          "StartCalibration": { "$className": "RemoteEvent" },
+          "SubmitHack": { "$className": "RemoteFunction" }
         },
         "Narratives": {
           "$className": "Folder",

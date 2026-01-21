@@ -88,5 +88,7 @@ local function onTerminalActivated(player, terminalPart)
 	startLogicHack(player, challengeID)
 end
 
--- Remote Integration (Placeholder for UI)
--- game.ReplicatedStorage.RemoteEvents.SubmitHack.OnServerEvent:Connect(solveLogicHack)
+-- Remote Integration
+Events:WaitForChild("SubmitHack").OnServerInvoke = function(player, challengeID, submittedCode)
+	return solveLogicHack(player, challengeID, submittedCode)
+end
