@@ -1,5 +1,5 @@
 -- ==========================================
--- NEO-ARKAIA: SECTOR FORTIFICATION SYSTEM (LUAU)
+-- NEO-ARK: SECTOR FORTIFICATION SYSTEM (LUAU)
 -- EZ-FUNDATION | Protocol Symbeon
 -- ==========================================
 

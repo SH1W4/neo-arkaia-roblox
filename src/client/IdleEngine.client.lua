@@ -1,5 +1,5 @@
 -- ==========================================
--- NEO-ARKAIA: PASSIVE YIELD ENGINE (LUAU)
+-- NEO-ARK: PASSIVE YIELD ENGINE (LUAU)
 -- EZ-FUNDATION | Protocol Symbeon
 -- ==========================================
 

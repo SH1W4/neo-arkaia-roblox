@@ -1,5 +1,5 @@
 -- ==========================================
--- NEO-ARKAIA: NPC INTERACTION CONTROLLER
+-- NEO-ARK: NPC INTERACTION CONTROLLER
 -- EZ-FUNDATION | Protocol Symbeon
 -- Conecta Ink Runtime com NPCs no mundo
 -- ==========================================

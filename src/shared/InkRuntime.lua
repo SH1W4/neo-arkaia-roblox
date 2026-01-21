@@ -1,5 +1,5 @@
 -- ==========================================
--- NEO-ARKAIA: INK RUNTIME (NARRATIVE ENGINE)
+-- NEO-ARK: INK RUNTIME (NARRATIVE ENGINE)
 -- EZ-FUNDATION | Protocol Symbeon
 -- ==========================================
 

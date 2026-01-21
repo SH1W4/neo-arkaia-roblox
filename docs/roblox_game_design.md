@@ -1,4 +1,4 @@
-# Neo-Arkaia: The Symbeon Awakening 🎮🕶️🌌
+# NEO-ARK: The Symbeon Awakening 🎮🕶️🌌
 
 ## 1. O Enredo (Lore)
 Em um futuro onde a **EZ-Fundation** resgatou o DNA da Grade Primordial, você joga como um **Sincronizador**. 

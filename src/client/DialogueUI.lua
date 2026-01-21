@@ -1,5 +1,5 @@
 -- ==========================================
--- NEO-ARKAIA: DIALOGUE UI SYSTEM
+-- NEO-ARK: DIALOGUE UI SYSTEM
 -- EZ-FUNDATION | Protocol Symbeon
 -- ==========================================
 

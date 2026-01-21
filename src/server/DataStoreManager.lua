@@ -1,5 +1,5 @@
 -- ==========================================
--- NEO-ARKAIA: DATASTORE MANAGER (PRODUCTION-READY)
+-- NEO-ARK: DATASTORE MANAGER (PRODUCTION-READY)
 -- EZ-FUNDATION | Protocol Symbeon
 -- Implements UpdateAsync, versioning, and error handling
 -- ==========================================

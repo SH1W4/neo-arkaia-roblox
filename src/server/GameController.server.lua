@@ -1,5 +1,5 @@
 -- ==========================================
--- NEO-ARKAIA: GAME CONTROLLER (MAIN ORCHESTRATOR)
+-- NEO-ARK: GAME CONTROLLER (MAIN ORCHESTRATOR)
 -- EZ-FUNDATION | Protocol Symbeon
 -- ==========================================
 
@@ -35,7 +35,7 @@ function GameController:InitializePlayer(player)
     player.CharacterAdded:Connect(function(character)
         local humanoid = character:WaitForChild("Humanoid")
         
-        -- Calibragem de Movimento Neo-Arkaia
+        -- Calibragem de Movimento NEO-ARK
         humanoid.WalkSpeed = 24 -- Padrão Roblox: 16
         humanoid.JumpPower = 60 -- Padrão Roblox: 50
         humanoid.UseJumpPower = true
@@ -89,7 +89,7 @@ end
 
 -- 4. INICIALIZAR SERVIDOR
 function GameController:Initialize()
-    print("🏛️ [NEO-ARKAIA]: Servidor iniciado - JobID: " .. game.JobId)
+    print("🏛️ [NEO-ARK]: Servidor iniciado - JobID: " .. game.JobId)
     
     -- Configurar eventos
     self:SetupCombatEvents()

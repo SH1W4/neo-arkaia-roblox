@@ -1,5 +1,5 @@
 -- ==========================================
--- NEO-ARKAIA: HUD SYSTEM (SYNCHRONIZER INTERFACE)
+-- NEO-ARK: HUD SYSTEM (SYNCHRONIZER INTERFACE)
 -- EZ-FUNDATION | Protocol Symbeon
 -- ==========================================
 

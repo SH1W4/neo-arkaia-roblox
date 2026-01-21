@@ -1,5 +1,5 @@
 -- ==========================================
--- NEO-ARKAIA: ECONOMY MANAGER (LUAU)
+-- NEO-ARK: ECONOMY MANAGER (LUAU)
 -- EZ-FUNDATION | Protocol Symbeon
 -- ==========================================
 

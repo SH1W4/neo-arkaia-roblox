@@ -1,5 +1,5 @@
 -- ==========================================
--- NEO-ARKAIA: VFX CONTROLLER (PARTICLES & EFFECTS)
+-- NEO-ARK: VFX CONTROLLER (PARTICLES & EFFECTS)
 -- EZ-FUNDATION | Protocol Symbeon
 -- ==========================================
 

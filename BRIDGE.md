@@ -5,7 +5,7 @@ Este documento formaliza como transformar a Arqueologia Digital do **AION** em r
 ## 1. Fluxo de Dados (Data Flow)
 1. **AION/EZ-Studios**: Gera o arquivo `genesis_map_seed.json` (o DNA Digital).
 2. **Roblox Bridge**: O script `RobloxMapaModule.lua` lê este JSON.
-3. **Neo-Arkaia**: O mundo é construído peça por peça no servidor Roblox.
+3. **NEO-ARK**: O mundo é construído peça por peça no servidor Roblox.
 
 ---
 

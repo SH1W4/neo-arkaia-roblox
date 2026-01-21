@@ -1,5 +1,5 @@
 -- ==========================================
--- NEO-ARKAIA: NPC INITIALIZER
+-- NEO-ARK: NPC INITIALIZER
 -- EZ-FUNDATION | Protocol Symbeon
 -- Inicializa os NPCs no mundo e conecta suas histórias
 -- ==========================================

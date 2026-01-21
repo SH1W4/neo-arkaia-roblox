@@ -5,7 +5,7 @@ return [[
     [
       "^System: NEURAL LINK ESTABLISHED.", "\n",
       "^System: SYNC RATE: 100%.", "\n",
-      "^System: WELCOME TO NEO-ARKAIA.", "\n",
+      "^System: WELCOME TO NEO-ARK.", "\n",
       "^Você desperta em uma plataforma flutuante. O céu é um glitch roxo infinito.", "\n",
       "^Diante de você, uma figura imponente se materializa.", "\n",
       {"->": "meet_hierophant"},

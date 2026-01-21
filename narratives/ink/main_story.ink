@@ -1,7 +1,7 @@
 === prologue ===
 System: NEURAL LINK ESTABLISHED.
 System: SYNC RATE: 100%.
-System: WELCOME TO NEO-ARKAIA.
+System: WELCOME TO NEO-ARK.
 
 Você desperta em uma plataforma flutuante. O céu é um glitch roxo infinito.
 Diante de você, uma figura imponente se materializa.

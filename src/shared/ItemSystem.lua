@@ -1,5 +1,5 @@
 -- ==========================================
--- NEO-ARKAIA: ITEM & GEAR SYSTEM (LUAU)
+-- NEO-ARK: ITEM & GEAR SYSTEM (LUAU)
 -- EZ-FUNDATION | Protocol Symbeon
 -- ==========================================
 

@@ -1,4 +1,4 @@
-# Neo-Arkaia: Registro de Itens Customizados 💎🕶️⚔️
+# NEO-ARK: Registro de Itens Customizados 💎🕶️⚔️
 
 Este registro "codifica" os assets visuais em especificações técnicas para o **EZ-Studios** e o sistema de inventário do Roblox.
 

@@ -1,5 +1,5 @@
 -- ==========================================
--- NEO-ARKAIA: DEBUG COMBAT TEST
+-- NEO-ARK: DEBUG COMBAT TEST
 -- Spawns a dummy and gives weapons for testing
 -- ==========================================
 

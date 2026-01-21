@@ -1,5 +1,5 @@
 -- ==========================================
--- NEO-ARKAIA: CROSS-SERVER HEIST SYSTEM
+-- NEO-ARK: CROSS-SERVER HEIST SYSTEM
 -- EZ-FUNDATION | Protocol Symbeon
 -- ==========================================
 

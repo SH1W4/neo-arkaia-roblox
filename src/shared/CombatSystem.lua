@@ -1,5 +1,5 @@
 -- ==========================================
--- NEO-ARKAIA: COMBAT SYSTEM (WEAPONS & GRENADES)
+-- NEO-ARK: COMBAT SYSTEM (WEAPONS & GRENADES)
 -- EZ-FUNDATION | Protocol Symbeon
 -- ==========================================
 

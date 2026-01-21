@@ -1,4 +1,4 @@
-# GDD: Neo-Arkaia - The Symbeon Awakening 🏙️🕶️⚙️
+# GDD: NEO-ARK - The Symbeon Awakening 🏙️🕶️⚙️
 **Versão:** 1.0 (Build: Arquiteto)  
 **Autor:** EZ-Fundation (AI-Enhanced Design)  
 **Inspiração:** *The Matrix*, *Entropy : Zero*, *Half-Life*
@@ -6,13 +6,13 @@
 ---
 
 ## 1. Visão Geral e Missão (Vision Statement)
-**Neo-Arkaia** é um shooter tático e sistêmico em primeira e terceira pessoa no Roblox. O jogador encarna um **Sincronizador**, um agente de elite da EZ-Fundation cujos sentidos e equipamentos são sintonizados com o "DNA Digital" da antiga Matrix. 
+**NEO-ARK** é um shooter tático e sistêmico em primeira e terceira pessoa no Roblox. O jogador encarna um **Sincronizador**, um agente de elite da EZ-Fundation cujos sentidos e equipamentos são sintonizados com o "DNA Digital" da antiga Matrix. 
 
 O objetivo não é apenas sobreviver, mas **estabilizar a realidade** através da arqueologia ativa, neutralizando ameaças virais (Echos) e reconstruindo mundos a partir de sementes binárias reais.
 
 ---
 
-## 2. Setting & Lore (O Universo Neo-Arkaia)
+## 2. Setting & Lore (O Universo NEO-ARK)
 
 ### A Origem do Nome
 **Neo** (Novo/Desperto) + **Arkaia** (Arqueologia/Antigo). O jogo se passa em um vazio digital onde os destroços da Matrix original estão sendo minerados para construir um novo paraíso.
@@ -30,7 +30,7 @@ Inspirado na armadura Combine de *Entropy : Zero*, o traje do jogador é uma int
 - **Mastro de Lógica (Logic Port)**: Um slot no braço que permite injetar "Gatilhos" no mapa, alterando gravidade ou tempo localmente por Robux ou EB.
 
 ### 3.2 Combate Tático e Sistêmico
-Diferente de shooters genéricos, Neo-Arkaia foca em:
+Diferente de shooters genéricos, NEO-ARK foca em:
 - **Física Pesada**: Objetos do cenário podem ser usados como cobertura ou armas.
 - **Granadas de Dados**:
     - *Null-Frag*: Causa dano físico.
@@ -77,4 +77,4 @@ O jogo se conecta ao `AION-Core`:
 - **Exploration**: Glitch ambient music com sons de datastream carregando.
 
 ---
-**Neo-Arkaia: Do Passado Binário ao Futuro Procedural.** 🕶️🏛️🚀
+**NEO-ARK: Do Passado Binário ao Futuro Procedural.** 🕶️🏛️🚀

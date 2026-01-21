@@ -1,8 +1,8 @@
-# 🕶️ NEO-ARKAIA: Protocolo Symbeon
+# 🕶️ NEO-ARK: Protocolo Symbeon
 
-![Neo-Arkaia Hero Banner](assets/neo_arkaia_roblox_banner_final_1768856027782.png)
+![NEO-ARK Hero Banner](assets/neo_arkaia_roblox_banner_final_1768856027782.png)
 
-**Neo-Arkaia** é um ecossistema de jogo sistêmico e scifi construído para Roblox, utilizando o poder do **Rojo** para um fluxo de trabalho de engenharia profissional.
+**NEO-ARK** é um ecossistema de jogo sistêmico e scifi construído para Roblox, utilizando o poder do **Rojo** para um fluxo de trabalho de engenharia profissional.
 
 ## 🌌 O Universo: Lore & História
 
@@ -16,7 +16,7 @@ Em um futuro onde a realidade física colapsou sob o peso da entropia digital, o
 
 ![Character Design Sheet](assets/neo_arkaia_roblox_character_sheet_1768856043878.png)
 
-No coração de Neo-Arkaia, a Arqueologia Digital do projeto **AION** revelou que o passado binário esconde as chaves para a soberania do futuro.
+No coração de NEO-ARK, a Arqueologia Digital do projeto **AION** revelou que o passado binário esconde as chaves para a soberania do futuro.
 
 ---
 
@@ -47,7 +47,7 @@ O projeto segue a estrutura padrão Rojo para máxima modularidade:
 3. Os arquivos em `src/` serão sincronizados automaticamente com o Studio.
 
 ## 🌌 Visão Geral: Protocolo Symbeon
-Este repositório é o núcleo da infraestrutura tecnológica de Neo-Arkaia, integrando economia de "Idle Yield", sistemas de Heist cross-server e uma narrativa profunda baseada na arqueologia digital do projeto AION.
+Este repositório é o núcleo da infraestrutura tecnológica de NEO-ARK, integrando economia de "Idle Yield", sistemas de Heist cross-server e uma narrativa profunda baseada na arqueologia digital do projeto AION.
 
 ---
 **Desenvolvido por [Symbeon Labs] com Antigravity Engine.**

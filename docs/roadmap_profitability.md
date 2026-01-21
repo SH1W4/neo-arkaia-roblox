@@ -1,4 +1,4 @@
-# Neo-Arkaia: Roadmap para a Soberania e Lucratividade 🚀💰🕶️
+# NEO-ARK: Roadmap para a Soberania e Lucratividade 🚀💰🕶️
 
 ## 1. Potencial de Mercado: Por que vai dar certo?
 O seu jogo tem três diferenciais que a maioria dos jogos no Roblox não tem:

@@ -1,4 +1,4 @@
-# Neo-Arkaia Roblox Folder Structure 📂
+# NEO-ARK Roblox Folder Structure 📂
 
 Esta pasta serve como o ponto central para os assets do seu jogo no Roblox Studio.
 

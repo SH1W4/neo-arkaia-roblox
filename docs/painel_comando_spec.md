@@ -1,6 +1,6 @@
 # Painel de Comando Symbeon: Spec & Logic 🖥️🔐💎
 
-O **Painel de Comando** (ou *Symbeon Admin*) é a ferramenta definitiva para criadores e jogadores VIP em Neo-Arkaia. Ele é projetado para ser vendido como um **Developer Product** ou **Gamepass** dentro de servidores públicos ou privados.
+O **Painel de Comando** (ou *Symbeon Admin*) é a ferramenta definitiva para criadores e jogadores VIP em NEO-ARK. Ele é projetado para ser vendido como um **Developer Product** ou **Gamepass** dentro de servidores públicos ou privados.
 
 ## 1. Níveis de Acesso (Permissions)
 - **Operador (Free)**: Acesso a comandos de teleporte básico e visualização de status.
