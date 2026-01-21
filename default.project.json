@@ -28,7 +28,10 @@
           "MapaJSON": { "$path": "src/shared/MapaJSON.lua" },
           "InkRuntime": { "$path": "src/shared/InkRuntime.lua" }
         },
-        "Events": { "$className": "Folder" },
+        "Events": {
+          "$className": "Folder",
+          "StartCalibration": { "$className": "RemoteEvent" }
+        },
         "Narratives": {
           "$className": "Folder",
           "Compiled": { 
