@@ -8,19 +8,15 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local Players = game:GetService("Players")
 
 local Events = ReplicatedStorage:WaitForChild("NeoArkaia_Shared"):WaitForChild("Events")
+local Modules = ReplicatedStorage:WaitForChild("NeoArkaia_Shared"):WaitForChild("Modules")
 local StartCalibrationEvent = Events:WaitForChild("StartCalibration")
+local PhysicsEvaluator = require(Modules:WaitForChild("PhysicsEvaluator"))
 
 -- Configuration
-local CALIBRATION_ROOM_POSITION = Vector3.new(0, 500, 0) -- High in the sky or separate area
+local CALIBRATION_ROOM_POSITION = Vector3.new(0, 500, 0)
 
 -- Archetype Scoring Logic
-local ARCHETYPES = {
-	EXECUTOR = "Executor",
-	PHANTOM = "Phantom",
-	ARCHITECT = "Architect",
-	ORACLE = "Oracle",
-	BROKER = "Broker"
-}
+local ARCHETYPES = PhysicsEvaluator.Archetypes
 
 local playerScores = {}
 
@@ -42,28 +38,37 @@ local function recordInteraction(player, archetype, value)
 end
 
 -- Physics Evaluator Listeners
--- These would be triggered by physical objects in the calibration room
-local function onObjectPushed(player, force)
-	if force > 50 then
-		recordInteraction(player, ARCHETYPES.EXECUTOR, 10)
-	else
-		recordInteraction(player, ARCHETYPES.ARCHITECT, 5)
+local function onDebrisInteraction(player, debris, force)
+	local archetype, reward = PhysicsEvaluator.EvaluateForce(force)
+	if archetype then
+		recordInteraction(player, archetype, reward)
+		
+		-- Visual feedback (Color change on debris)
+		debris.Color = PhysicsEvaluator.GetAuraColor(archetype)
+		task.delay(0.5, function() debris.Color = Color3.new(0.1, 0.1, 0.1) end)
 	end
-end
-
-local function onPlayerDash(player)
-	recordInteraction(player, ARCHETYPES.PHANTOM, 15)
 end
 
 -- Calibration Flow
 local function setupCalibrationRoom(player)
-	-- In a real scenario, we'd spawn a personal room from a Template
-	-- For this PoC, we just position them and set attributes
 	local character = player.Character or player.CharacterAdded:Wait()
 	character:SetPrimaryPartCFrame(CFrame.new(CALIBRATION_ROOM_POSITION))
 	
+	-- Connect to interactable objects
+	for _, obj in ipairs(workspace:GetDescendants()) do
+		if obj:IsA("BasePart") and obj:GetAttribute("IsCalibrationObject") then
+			obj.Touched:Connect(function(otherPart)
+				if otherPart:IsDescendantOf(character) then
+					-- Calculate force (simulated simple velocity check)
+					local force = otherPart.Velocity - obj.Velocity
+					onDebrisInteraction(player, obj, force)
+				end
+			end)
+		end
+	end
+	
 	player:SetAttribute("InCalibration", true)
-	print("[Calibration] Room setup complete for " .. player.Name)
+	print("[Calibration] Sensors active for " .. player.Name)
 end
 
 local function finalizeCalibration(player)

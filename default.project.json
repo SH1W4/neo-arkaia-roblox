@@ -12,7 +12,9 @@
         "Fortification": { "$path": "src/server/Fortification.lua" },
         "NPCController": { "$path": "src/server/NPCController.lua" },
         "InitNPCs": { "$path": "src/server/InitNPCs.server.lua" },
-        "Debug_CombatTest": { "$path": "src/server/Debug_CombatTest.server.lua" }
+        "Debug_CombatTest": { "$path": "src/server/Debug_CombatTest.server.lua" },
+        "CalibrationManager": { "$path": "src/server/CalibrationManager.lua" },
+        "WorldEngine": { "$path": "src/server/WorldEngine.server.lua" }
       }
     },
     "ReplicatedStorage": {
@@ -26,7 +28,8 @@
           "SymbeonMeshSystem": { "$path": "src/shared/SymbeonMeshSystem.lua" },
           "RobloxMapaModule": { "$path": "src/shared/RobloxMapaModule.lua" },
           "MapaJSON": { "$path": "src/shared/MapaJSON.lua" },
-          "InkRuntime": { "$path": "src/shared/InkRuntime.lua" }
+          "InkRuntime": { "$path": "src/shared/InkRuntime.lua" },
+          "PhysicsEvaluator": { "$path": "src/shared/PhysicsEvaluator.lua" }
         },
         "Events": {
           "$className": "Folder",
@@ -48,7 +51,9 @@
           "$className": "Folder",
           "HUDSystem": { "$path": "src/client/HUDSystem.client.lua" },
           "DialogueUI": { "$path": "src/client/DialogueUI.lua" },
-          "IdleEngine": { "$path": "src/client/IdleEngine.client.lua" }
+          "IdleEngine": { "$path": "src/client/IdleEngine.client.lua" },
+          "LogicHackUI": { "$path": "src/client/LogicHackUI.lua" },
+          "GlitchedVFX": { "$path": "src/client/GlitchedVFX.lua" }
         }
       }
     }
